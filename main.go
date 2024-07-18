@@ -126,7 +126,7 @@ func transactionHandler(ctx context.Context, b *bot.Bot, update *models.Update) 
 		log.Fatal(err)
 	}
 	tx, err := tonconnect.NewTransaction(
-		tonconnect.WithTimeout(1*time.Minute),
+		tonconnect.WithTimeout(3*time.Minute),
 		tonconnect.WithTestnet(),
 		tonconnect.WithMessage(*msg),
 	)
