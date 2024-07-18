@@ -13,6 +13,8 @@ If you want to use permanent TON Connect storage you should [set up Redis](https
 
 ## Test Bot
 
+[gotonconnect](https://t.me/gotonconnect_bot)
+
 [![gotonconnect](./bot.png)](https://t.me/gotonconnect_bot)
 
 ### Install dependencies:
